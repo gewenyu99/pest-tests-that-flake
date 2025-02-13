@@ -41,3 +41,4 @@ jobs:
           junit-paths: "**/junit.xml"        
           org-slug: totally-real-saas
           token: ${{ secrets.TRUNK_TOKEN }}
+          
