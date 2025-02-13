@@ -8,6 +8,9 @@ on:
         branches:
             - main
  
+env:
+  TRUNK_PUBLIC_API_ADDRESS: https://api.trunk-staging.io
+          
 jobs:
   tests:
     name: Run tests
